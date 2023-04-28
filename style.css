@@ -1,0 +1,19 @@
+form{
+    text-align: center; 
+}
+input{
+    text-align: center;
+}
+button{
+    background-color: rgb(189, 189, 245);
+    width: 200px;
+}
+h1{
+    text-align: center;
+    background-color: rgb(189, 189, 245);
+    color: white;
+    padding: 30px;
+}
+label{
+    position: relative;
+  }
