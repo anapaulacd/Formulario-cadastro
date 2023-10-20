@@ -27,35 +27,11 @@
         <br>
         <label for="cpf">CPF:</label>
         <br>
-        <input type="text" id="cpf" placeholder="000.000.000-10"  />
-        <br>
-        <label for="endereco">endereço:</label>
-        <br>
         <input type="text" id="endereco" placeholder="endereco"  />
         <br>
         <label for="numero">numero</label>
         <br>
         <input type="number" id="numero" placeholder="ex: 111" >
-        <br>
-        <label for="cep">CEP:</label>
-        <br>
-        <input type="text" id="cep" placeholder="endereco"  />
-        <br>
-        <label for="complemento">complemento</label>
-        <br>
-        <input type="text" id="complemento" placeholder="ex: Complemento">
-        <br>
-        <label for="bairro">bairro</label>
-        <br>
-        <input type="text" id="bairro" placeholder="ex: Seu bairro" >
-        <br>
-        <label for="cidade">cidade</label>
-        <br>
-        <input type="text" id="cidade" placeholder="ex: Sua Cidade" >
-        <br>
-        <label for="estado">estado</label>
-        <br>
-        <input type="text" id="estado" placeholder="ex: Seu estado" >
         <br>
         <label for="email">Email:</label>
         <br>
@@ -65,14 +41,46 @@
         <br>
         <input type="password" id="senha" placeholder="ex: senha 321"  />
         <br>
-        <label for="senha">Senha:</label>
+        <label for="senha">Confirmar Senha:</label>
         <br>
         <input type="password" id="csenha" placeholder="ex: senha 321"  />
         <br>
 
-        <button onclick="Verificar()" class="btn btn-warning">ACESSAR</button>
+        
     </form>
     </div>
+    <form class="row g-3">
+        <div class="col-md-6">
+            <label for="inputZip" class="form-label">cep</label>
+            <input type="text" class="form-control" id="cep">
+          </div> 
+            <div class="col-8">
+              <label for="inputAddress" class="form-label">endereço</label>
+              <input type="text" class="form-control" id="rua" placeholder="Joaquim Nabuco">
+            </div>
+            <div class="col-4">
+              <label for="inputAddress" class="form-label">número</label>
+              <input type="text" class="form-control" id="numero" placeholder="123">
+            </div>
+            <div class="col-12">
+              <label for="inputAddress2" class="form-label">Bairro</label>
+              <input type="text" class="form-control" id="bairro" >
+            </div>
+            <div class="col-md-6">
+              <label for="inputCity" class="form-label">Cidade</label>
+              <input type="text" class="form-control" id="cidade">
+            </div>
+            <div class="col-md-4">
+              <label for="inputState" class="form-label">Estado</label>
+              <input type="text" id="estado" class="form-control">
+            </div>
+            
+           
+            <div class="col-12">
+              <button type="submit" class="btn btn-primary">Cadastrar</button>
+            </div>
+          </form>
+          <script src='./controlor.js'></script>
 </body>
 
 </html>
